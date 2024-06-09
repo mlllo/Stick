@@ -14,9 +14,11 @@ body{
     background-color: #0c192c;
 }
 
+
 li{
     list-style: none;
 }
+
 
 a{
     text-decoration: none;
@@ -28,7 +30,6 @@ a:hover{
     color: #aaaaaa;
 }
 
-/* Hedder */
 
 header {
     position: relative;
@@ -36,6 +37,7 @@ header {
     padding: 0 20px;
     background-color: #00000063;
 }
+
 
 .navbar{
     width: 100%;
@@ -46,20 +48,19 @@ header {
     justify-content: space-between;
 }
 
+
 .navbar .logo a {
     width: 1px;
     font-size: 1.5rem;
     font-weight: bold;
 }
 
+
 .navbar .links{
     display: flex;
     gap: 2rem;
 }
 
-/* End Hedder */
-
-/*Back*/
 
 .conteiner{
     position: relative;
@@ -69,9 +70,6 @@ header {
 
 }
 
-/*End Back*/
-
-/*Content*/
 
 .content {
     width: auto;
@@ -81,14 +79,12 @@ header {
     background-color: #00000085;
 }
 
-/*End Content*/
-
-/*Background animation*/
 
 .bubbles{
     position: relative;
     display: flex;
 }
+
 
 .bubbles span{
     position: relative;
@@ -116,5 +112,3 @@ header {
         transform: translateY(-10vh) scale(1);
     }
 }
-
-/* End Background animation*/
