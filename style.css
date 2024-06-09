@@ -1,6 +1,115 @@
-body {
-
-    background-color: #303030;
-    color: #ffff;
-
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
 }
+
+body{
+    min-height: 100vh;
+    background-color: #0c192c;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: fff;
+    font-size: 1rem;
+}
+
+a:hover{
+    color: #aaaaaa;
+}
+
+/* Hedder */
+
+header {
+    position: relative;
+    padding: 0 2rem;
+    background-color: #00000063;
+}
+
+.navbar{
+    width: 100%;
+    height: 60px;
+    max-width: 100000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo a {
+    width: 1px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar .links{
+    display: flex;
+    gap: 2rem;
+}
+
+/* End Hedder */
+/*Back*/
+.conteiner{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    color: #000;
+}
+/*Back*/
+
+/*Content*/
+
+.content {
+    width: auto;
+    height: 100%;
+    margin: 3vh;
+    padding: 0 1vh;
+    background-color: #00000085;
+}
+
+/*End Content*/
+
+/*Background animation*/
+
+.bubbles{
+    position: relative;
+    display: flex;
+}
+
+.bubbles span{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    margin: 0 4px;
+    border-radius: 50px;
+    box-shadow: 0 0 0 10px #ffffff3b,
+    0 0 50px #fff,
+    0 0 100px #fff;
+    animation: animate 15s linear infinite;
+    animation-duration: calc(125s / var(--i));
+}
+
+
+@keyframes animate
+{
+    0%
+    {
+        transform: translateY(100vh) scale(0);
+    }
+    100%
+    {
+        transform: translateY(-10vh) scale(1);
+    }
+}
+
+/* End Background animation*/
