@@ -1,5 +1,6 @@
 /*ML - SK*/
 
+/*Set*/
 *
 {
     margin: 0;
@@ -27,6 +28,8 @@ a{
 a:hover{
     color: #aaaaaa;
 }
+
+/*End Set*/
 
 /* Hedder */
 
@@ -59,7 +62,7 @@ header {
 
 /* End Hedder */
 
-/*Back*/
+/*Bac*/
 .conteiner{
     position: relative;
     width: 100%;
@@ -67,7 +70,7 @@ header {
     overflow: hidden;
 
 }
-/*Back*/
+/*End Bac*/
 
 /*Content*/
 
