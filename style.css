@@ -56,13 +56,13 @@ header {
 }
 
 /* End Hedder */
+
 /*Back*/
 .conteiner{
     position: relative;
     width: 100%;
     height: 100vh;
     overflow: hidden;
-    color: #000;
 }
 /*Back*/
 
