@@ -109,19 +109,19 @@ ul#links .active {
     height: 30px;
     background: #ffffff;
     margin: 0 4px;
-    border-radius: 50%
+    border-radius: 50%;
     box-shadow: 0 0 0 5px #ffffff,
     0 0 50px #ffffff,
     0 0 100px #ffffff;
-    animation: animate 15s linear infinite;
-    animation-duration: calc(250s) / var(--i))
+    animation: animate 20s linear infinite;
+    animation-duration: calc(250s / var(--i))
 }
 
 @keyframes animate
 {
     0%
     {
-        transform: translate(100vh) scale(1);
+        transform: translateY(100vh) scale(1);
     }
 }
 

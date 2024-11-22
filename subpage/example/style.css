@@ -88,14 +88,41 @@ ul#links .active {
 }
 
 .content{
-    font-size: 10px;
+    width: auto;
     padding-top: 2vh;
-    font-size: 1px;
 }
 
 /*End Content*/
 
-/*BackGround*/
+/*BackGround Animation*/
 
+.bubbles
+{
+    position: relative;
+    display: flex;
+}
 
-/*EndBackGround*/
+.bubbles span
+{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background: #ffffff;
+    margin: 0 4px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 5px #ffffff,
+    0 0 50px #ffffff,
+    0 0 100px #ffffff;
+    animation: animate 20s linear infinite;
+    animation-duration: calc(250s / var(--i))
+}
+
+@keyframes animate
+{
+    0%
+    {
+        transform: translateY(100vh) scale(1);
+    }
+}
+
+/*EndBackGround Animation*/
