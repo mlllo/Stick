@@ -96,5 +96,33 @@ ul#links .active {
 
 /*BackGround*/
 
+.bubbles
+{
+    position: relative;
+    display: flex;
+}
+
+.bubbles span
+{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background: #ffffff;
+    margin: 0 4px;
+    border-radius: 50%
+    box-shadow: 0 0 0 5px #ffffff,
+    0 0 50px #ffffff,
+    0 0 100px #ffffff;
+    animation: animate 15s linear infinite;
+    animation-duration: calc(250s) / var(--i))
+}
+
+@keyframes animate
+{
+    0%
+    {
+        transform: translate(100vh) scale(1);
+    }
+}
 
 /*EndBackGround*/
