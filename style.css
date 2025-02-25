@@ -114,13 +114,13 @@ ul#links .active {
     0 0 50px #ffffff52,
     0 0 100px #ffffff52;
     animation: animate 15s linear infinite;
-    animation-duration: calc(257s / var(--i))
+    animation-duration: calc(167s / var(--i))
 }
 @keyframes animate
 {
     0%
     {
-        transform: translateY(100vh) scale(0);
+        transform: translateY(100vh) scale(1);
     }
 
     30%
