@@ -81,7 +81,7 @@ ul#links .active {
 
 .cont{
     width: auto;
-    height: 100%;
+    height: 84%;
     margin: 3vh;
     padding: 2vh;
     background-color: #000000c7;
@@ -123,7 +123,7 @@ ul#links .active {
         transform: translateY(100vh) scale(1);
     }
 
-    30%
+    20%
     {
         transform: translateY(110vh) scale(-1);
     }
